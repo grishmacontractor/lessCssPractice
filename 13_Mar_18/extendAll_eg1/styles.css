@@ -1,0 +1,10 @@
+.style.nav,
+.nav h3,
+.style.container,
+.container h3 {
+  color: pink;
+}
+.nav:hover,
+.container:hover {
+  color: green;
+}

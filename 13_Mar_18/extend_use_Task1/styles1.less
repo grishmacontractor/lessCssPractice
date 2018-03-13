@@ -1,0 +1,16 @@
+.btn {
+  color: red;
+  background: yellow;
+  border: 1px solid blue;
+
+  span {
+    background: url('smile.png') no-repeat;
+  }
+}
+
+
+.go-btn {
+  &:extend(.btn);
+
+  color: green;
+}
